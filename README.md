@@ -1,6 +1,6 @@
 # Data Structures and Algorithms
 
-## Why do learn data-structures?
+## Why do we learn data-structures?
 
 Software from an abstract level consists of sets of data structure interacting with each other.  Almost everything you will deal with in software engineering is realated to data structures in one way or another.  When constructing algorithms to solve problems, the data structures you decide to use will represent the information flow in your algorithm.  The data structure will determine how you're able to access the data, sort it, add to it, remove from it, etc.
 
