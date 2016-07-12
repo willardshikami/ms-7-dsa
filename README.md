@@ -57,9 +57,23 @@ A group of nodes which together represent a sequence.  Each node is composed of 
 
 
 *Things to think about:* 
+
 * **What is the time complexity of the above functions?**
 * How do you know that you have reached the end of a linked-list (What does the next-pointer point to)?
 * How would you know that you have an empty linked list? 
+
+*More on Linked Lists*
+-linked lists are ordered sets of data items. 
+-Each element contains a link to its successor
+-the last element of the sequence points to a null element
+-the data elements are called nodes
+
+###inserting an element into the linked list
+
+-create a new node for it
+-connect the next reference of the new node to the existing head node
+-then make the head of the linked list point to the new head node
+-if we pointed to the new node first we would lose access to all the existing elements in the linked list since there is no reference from the new head node to the previous head node
 
 [Video on single linked-lists](https://www.youtube.com/watch?v=5nsKtQuT6E8)
 
